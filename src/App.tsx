@@ -68,6 +68,26 @@ function App() {
         </section>
 
         <section className="mb-16">
+          <h2 className="text-2xl font-bold mb-6">Projects</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+              <h3 className="text-xl font-semibold mb-2">Agri E-Commerce</h3>
+              <p className="text-gray-600 dark:text-gray-400 mb-4">
+                A comprehensive e-commerce platform for agricultural products.
+              </p>
+              <a
+                href="https://github.com/rajju97/Agri-E-Commerce-Frontend-Project"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+              >
+                View Details
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section className="mb-16">
           <h2 className="text-2xl font-bold mb-6">Experience</h2>
           <div className="space-y-8">
             <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
